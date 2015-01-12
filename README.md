@@ -9,6 +9,7 @@ Sites will be defined in JSON files at ./var/sites.d/#{NAME}.json . These will d
 *   Optionally, a string containing validating pattern to discern an empty response from a valid response (such as a sites copyright line, or title line)
 *   Optionally, a list of numbers of valid response codes, defaults to [ 200, 301, 302, 304, 206 ]
 *   Optionally, a list of numbers of invalid response codes, defaults to anything not in the valid list.
+*   Optionally, a string containing the path, defaults to '/'
 *   Optionally, a number of maximum concurrent tests to run
 *   Optionally, a number containing the port to connect to
 *   Optionally, a boolean value for whether or not to use HTTPS
@@ -32,6 +33,8 @@ The overarching idea is that ./var/sites.d/ could be shared across an operations
 
 
 #To do
-Everything
+Most everything
+Web interface
+POST support
 
 
