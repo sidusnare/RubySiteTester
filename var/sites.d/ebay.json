@@ -1,0 +1,24 @@
+{
+    "host": "www.ebay.com", 
+    "invalid": [
+        404, 
+        500, 
+        301, 
+        302, 
+        401
+    ], 
+    "ips": [
+        "66.135.210.181", 
+        "66.211.181.181", 
+        "66.135.210.61", 
+        "66.211.181.161"
+    ], 
+    "port": 80, 
+    "ssl": false, 
+    "test": "Electronics, Cars, Fashion, Collectibles, Coupons and More", 
+    "valid": [
+        200, 
+        304, 
+        206
+    ]
+}

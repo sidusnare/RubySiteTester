@@ -1,0 +1,22 @@
+{
+    "host": "microsoft.com", 
+    "invalid": [
+        404, 
+        301, 
+        302, 
+        500, 
+        401
+    ], 
+    "ips": [
+        "134.170.185.46", 
+        "134.170.188.221"
+    ], 
+    "port": 80, 
+    "ssl": false, 
+    "test": "Microsoft Corporation", 
+    "valid": [
+        200, 
+        304, 
+        206
+    ]
+}

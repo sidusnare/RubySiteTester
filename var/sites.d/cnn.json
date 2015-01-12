@@ -1,0 +1,22 @@
+{
+    "host": "www.cnn.com", 
+    "invalid": [
+        404, 
+        301, 
+        302, 
+        500, 
+        401
+    ], 
+    "ips": [
+        "23.235.46.184", 
+        "199.27.76.185"
+    ], 
+    "port": 80, 
+    "ssl": false, 
+    "test": "Find the latest breaking news and information", 
+    "valid": [
+        200, 
+        304, 
+        206
+    ]
+}
